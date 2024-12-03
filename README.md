@@ -3,10 +3,10 @@ Lab 6 - EJB Service Layer
 **Overview**
 This project implements an Enterprise JavaBeans (EJB) service layer to perform CRUD operations for a domain model using Java Persistence API (JPA). It includes:
 
-Stateless EJB components for business logic.
-A Singleton EJB to seed the database with sample data.
-Entity classes to map to the database.
-Abstract Service for reusable CRUD operations.
+> Stateless EJB components for business logic.
+> A Singleton EJB to seed the database with sample data.
+> Entity classes to map to the database.
+> Abstract Service for reusable CRUD operations.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Features**
 Entity Classes:

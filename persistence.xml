@@ -1,0 +1,15 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    <persistence-unit name="itmd4515-pu">
+        <class>Person</class>
+        <class>Product</class>
+        <class>Order</class>
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="org.h2.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:h2:mem:test;DB_CLOSE_DELAY=-1"/>
+            <property name="jakarta.persistence.jdbc.user" value="sa"/>
+            <property name="jakarta.persistence.jdbc.password" value=""/>
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+            <property name="hibernate.show_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
